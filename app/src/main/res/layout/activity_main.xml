@@ -61,14 +61,15 @@
                 >
 
                 <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/nameTxt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Name"
                     android:inputType="textCapWords"
                     android:textColor="#363A43"
-                    android:textColorHint="#7A8089"
-                    />
+                    android:textColorHint="#7A8089" />
                 <Button
+                    android:id="@+id/btnStart"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
